@@ -1,0 +1,34 @@
+name: Generate Tracker JSON Data
+
+on:
+  schedule:
+    - cron: '0 5 * * 1' # Runs every Monday at 05:00 UTC
+  workflow_dispatch: # Allows manual trigger from GitHub web interface
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Allows committing JSON files back to the repository
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Run Scrapers
+        run: |
+          python scripts/conferences_tracker.py
+          python scripts/eu_calls_tracker.py
+
+      - name: Commit and Push Updated Data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "auto: update tracker json data"
+          file_pattern: "data/*.json"
