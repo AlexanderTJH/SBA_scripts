@@ -1,1 +1,282 @@
-[]
+[
+  {
+    "Title": "ICLR 2025",
+    "Deadline": "2024-10-01 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Singapore",
+    "Category": "['ML', 'AP', 'RO', 'CV', 'NLP', 'SP']",
+    "Url": "https://iclr.cc/Conferences/2025/CallForPapers"
+  },
+  {
+    "Title": "NeurIPS [Dataset and Benchmarks Track] 2024",
+    "Deadline": "2024-06-05 19:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Vancouver, Canada",
+    "Category": "['DM', 'ML', 'NLP', 'SP', 'CV']",
+    "Url": "https://nips.cc/Conferences/2024/CallForDatasetsBenchmarks"
+  },
+  {
+    "Title": "AAAI 2025",
+    "Deadline": "2024-08-15 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Philadelphia, USA",
+    "Category": "['DM', 'KR', 'ML', 'RO', 'NLP', 'SP', 'CV', 'CG', 'HCI', 'AP']",
+    "Url": "https://aaai.org/conference/aaai/aaai-25/"
+  },
+  {
+    "Title": "ICASSP 2025",
+    "Deadline": "2024-09-09 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Hyderabad, India",
+    "Category": "SP",
+    "Url": "https://2025.ieeeicassp.org/"
+  },
+  {
+    "Title": "SPAICE 2024",
+    "Deadline": "2024-05-19 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "ECSAT, Harwell, United Kingdom",
+    "Category": "ML",
+    "Url": "https://spaice.esa.int/"
+  },
+  {
+    "Title": "NeurIPS 2024",
+    "Deadline": "2024-05-22 19:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Vancouver, Canada",
+    "Category": "ML",
+    "Url": "https://nips.cc/Conferences/2024"
+  },
+  {
+    "Title": "ECML PKDD 2024",
+    "Deadline": "2024-07-22 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Vilnius (Lithuania)",
+    "Category": "ML",
+    "Url": "https://2024.ecmlpkdd.org/"
+  },
+  {
+    "Title": "AAAI 2024 Spring Symposium on Clinical Foundation Models 2024",
+    "Deadline": "2024-01-26 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Stanford, USA",
+    "Category": "ML",
+    "Url": "https://clinicalfoundationmodels.github.io/"
+  },
+  {
+    "Title": "AAAI 2024 Spring Symposium on User-Aligned Assessment of Adaptive AI Systems 2024",
+    "Deadline": "2023-12-22 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Stanford, USA",
+    "Category": "ML",
+    "Url": "https://aair-lab.github.io/aia2024/"
+  },
+  {
+    "Title": "KDD 2024",
+    "Deadline": "2024-02-08 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Barcelona, Spain",
+    "Category": "DM",
+    "Url": "https://kdd2024.kdd.org/"
+  },
+  {
+    "Title": "ICML 2024",
+    "Deadline": "2024-02-01 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Vienna, Austria",
+    "Category": "ML",
+    "Url": "https://icml.cc/Conferences/2024"
+  },
+  {
+    "Title": "IJCAI 2024",
+    "Deadline": "2024-01-17 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Jeju, South Korea",
+    "Category": "ML",
+    "Url": "https://ijcai24.org/"
+  },
+  {
+    "Title": "ICASSP 2024",
+    "Deadline": "2023-09-06 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Seoul, Korea",
+    "Category": "SP",
+    "Url": "https://2024.ieeeicassp.org/"
+  },
+  {
+    "Title": "ICLR 2024",
+    "Deadline": "2023-09-28 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Vienna, Austria",
+    "Category": "ML",
+    "Url": "https://iclr.cc/Conferences/2024"
+  },
+  {
+    "Title": "AAAI 2024",
+    "Deadline": "2023-08-15 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Vancouver, Canada",
+    "Category": "ML",
+    "Url": "https://aaai.org/aaai-conference/"
+  },
+  {
+    "Title": "NeurIPS 2023",
+    "Deadline": "2023-05-17 20:00:00",
+    "AbstractDeadline": "N/A",
+    "Location": "New Orleans, Louisiana, USA",
+    "Category": "ML",
+    "Url": "https://neurips.cc/Conferences/2023/"
+  },
+  {
+    "Title": "IJCAI 2023",
+    "Deadline": "2023-01-18 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Macao, S.A.R.",
+    "Category": "ML",
+    "Url": "https://ijcai-23.org/"
+  },
+  {
+    "Title": "ICML 2023",
+    "Deadline": "2023-01-26 11:59:00",
+    "AbstractDeadline": "N/A",
+    "Location": "Hawai'i, USA",
+    "Category": "ML",
+    "Url": "https://icml.cc/Conferences/2023"
+  },
+  {
+    "Title": "PAKDD 2023",
+    "Deadline": "2022-12-07 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Osaka, Japan",
+    "Category": "DM",
+    "Url": "https://pakdd2023.org"
+  },
+  {
+    "Title": "ICLR 2023",
+    "Deadline": "2022-09-28 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Kigali, Rwanda",
+    "Category": "ML",
+    "Url": "https://iclr.cc/Conferences/2023"
+  },
+  {
+    "Title": "AAAI 2023",
+    "Deadline": "2022-08-15 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Washington, DC, USA",
+    "Category": "ML",
+    "Url": "https://aaai.org/Conferences/AAAI-23/"
+  },
+  {
+    "Title": "NeurIPS 2022",
+    "Deadline": "2022-05-19 13:00:00",
+    "AbstractDeadline": "N/A",
+    "Location": "New Orleans, Louisiana, USA; and virtual",
+    "Category": "ML",
+    "Url": "https://neurips.cc/Conferences/2022/"
+  },
+  {
+    "Title": "ECML-PKDD 2021",
+    "Deadline": "2021-04-02 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Bilbao, Basque Country (Spain)",
+    "Category": "ML",
+    "Url": "https://2021.ecmlpkdd.org/"
+  },
+  {
+    "Title": "InterSpeech 2023",
+    "Deadline": "2023-03-01 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Dublin, Ireland",
+    "Category": "SP",
+    "Url": "http://www.interspeech2023.org/"
+  },
+  {
+    "Title": "NeurIPS 2021",
+    "Deadline": "2021-05-28 13:00:00",
+    "AbstractDeadline": "N/A",
+    "Location": "Online",
+    "Category": "ML",
+    "Url": "https://neurips.cc/Conferences/2021/"
+  },
+  {
+    "Title": "AAAI 2022",
+    "Deadline": "2021-09-08 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Vancouver, Canada",
+    "Category": "ML",
+    "Url": "https://aaai.org/Conferences/AAAI-22/"
+  },
+  {
+    "Title": "ICLR 2022",
+    "Deadline": "2021-10-05 17:00:00",
+    "AbstractDeadline": "N/A",
+    "Location": "Online",
+    "Category": "ML",
+    "Url": "https://iclr.cc/Conferences/2022"
+  },
+  {
+    "Title": "ICASSP 2023",
+    "Deadline": "2022-10-26 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Rhodes Island, Greece",
+    "Category": "SP",
+    "Url": "https://2023.ieeeicassp.org/"
+  },
+  {
+    "Title": "IJCAI-ECAI 2022",
+    "Deadline": "2022-01-14 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Vienna, Austria",
+    "Category": "ML",
+    "Url": "https://ijcai-22.org/"
+  },
+  {
+    "Title": "ICML 2022",
+    "Deadline": "2022-01-27 23:59:00",
+    "AbstractDeadline": "N/A",
+    "Location": "Baltimore, Maryland USA",
+    "Category": "ML",
+    "Url": "https://icml.cc/Conferences/2022"
+  },
+  {
+    "Title": "KDD 2023",
+    "Deadline": "2023-02-02 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Long Beach, California, USA",
+    "Category": "DM",
+    "Url": "https://kdd.org/kdd2023/"
+  },
+  {
+    "Title": "InterSpeech 2022",
+    "Deadline": "2022-03-21 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Incheon, South Korea",
+    "Category": "SP",
+    "Url": "http://www.interspeech2022.org/"
+  },
+  {
+    "Title": "ECML/PKDD 2022",
+    "Deadline": "2022-04-06 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Grenoble, France",
+    "Category": "SP",
+    "Url": "https://2022.ecmlpkdd.org/"
+  },
+  {
+    "Title": "ECML/PKDD 2023",
+    "Deadline": "2023-04-02 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Torino, Italy",
+    "Category": "SP",
+    "Url": "https://2023.ecmlpkdd.org/"
+  },
+  {
+    "Title": "SPECOM 2024",
+    "Deadline": "2024-07-01 23:59:59",
+    "AbstractDeadline": "N/A",
+    "Location": "Belgrade, Serbia",
+    "Category": "SP",
+    "Url": "https://specom2024.ftn.uns.ac.rs"
+  }
+]
