@@ -20,7 +20,9 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install pyyaml
+        run: | 
+          pip install pyyaml
+          pip install pyyaml requests
 
       - name: Run Scrapers
         run: |
