@@ -10,7 +10,7 @@ API_URL = "https://api.tech.ec.europa.eu/search-api/prod/rest/search?apiKey=SEDI
 KEYWORDS = [
     "privacy", "anonymisation", "anonymization", "synthetic data", "federated learning",
     "differential privacy", "homomorphic encryption", "adversarial", "poisoning",
-    "intrusion detection", "anomaly detection", "trustworthy ai", "cybersecurity", "security"
+    "intrusion detection", "anomaly detection", "trustworthy ai", "cybersecurity", "security", "AI models"
 ]
 
 def extract_field(item, keys, default="N/A"):
