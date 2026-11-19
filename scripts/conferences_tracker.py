@@ -7,19 +7,26 @@ import yaml
 
 SEC_URL = "https://raw.githubusercontent.com/sec-deadlines/sec-deadlines.github.io/master/_data/conferences.yml"
 AI_URL = "https://raw.githubusercontent.com/paperswithcode/ai-deadlines/gh-pages/_data/conferences.yml"
-
-KEYWORDS = [
-    "privacy", "anonymisation", "anonymization", "synthetic data", "federated learning",
-    "differential privacy", "homomorphic encryption", "cryptography",
-    "adversarial", "poisoning", "backdoor", "trustworthy ai", "robust ai",
-    "intrusion detection", "anomaly detection", "cybersecurity", "security",
-    "machine learning", "data management", "artificial intelligence", "ai"
-]
+KEYWORDS_CONFIG_PATH = "config/keywords.json"
 
 EXCLUDED_FIELDS = {
     "link", "dblp", "place", "location", "timezone", "date", "deadline",
     "abstract_deadline", "start", "end", "year", "hindex"
 }
+
+def load_keywords():
+    """Load conference keywords exported from SharePoint (no hardcoded fallback)."""
+    if not os.path.exists(KEYWORDS_CONFIG_PATH):
+        print(f"Config file '{KEYWORDS_CONFIG_PATH}' not found. No keywords loaded.")
+        return []
+    try:
+        with open(KEYWORDS_CONFIG_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            raw_kw = data.get("conferences", [])
+            return [str(k).strip().lower() for k in raw_kw if str(k).strip()]
+    except Exception as e:
+        print(f"Error reading '{KEYWORDS_CONFIG_PATH}': {e}")
+        return []
 
 def parse_yaml(url):
     try:
@@ -48,9 +55,23 @@ def parse_deadline_date(raw_deadline):
             return None
     return None
 
-def find_matched_keywords(conf):
-    """Scan all descriptive YAML fields for MLDM keywords using word boundaries."""
-    if not isinstance(conf, dict):
+def extract_conference_date(conf, cycle=None):
+    """Extract the human-readable conference event dates from cycle or conference root."""
+    sources = [cycle, conf] if isinstance(cycle, dict) else [conf]
+    for src in sources:
+        if src.get("date"):
+            return str(src["date"]).strip()
+        start = src.get("start")
+        end = src.get("end")
+        if start and end:
+            return f"{start} to {end}" if str(start) != str(end) else str(start)
+        if start:
+            return str(start).strip()
+    return "TBA"
+
+def find_matched_keywords(conf, keywords):
+    """Scan all descriptive YAML fields for SharePoint keywords using word boundaries."""
+    if not isinstance(conf, dict) or not keywords:
         return []
 
     text_parts = []
@@ -65,7 +86,7 @@ def find_matched_keywords(conf):
     searchable_text = " ".join(text_parts).lower()
 
     matched = [
-        kw for kw in KEYWORDS
+        kw for kw in keywords
         if re.search(rf"\b{re.escape(kw)}\b", searchable_text)
     ]
     return sorted(set(matched))
@@ -76,11 +97,10 @@ def normalize_cycles(conf):
     if isinstance(deadlines, list) and deadlines:
         return deadlines
 
-    raw_dl = conf.get("deadline") or conf.get("date")
+    raw_dl = conf.get("deadline")
     raw_abs = conf.get("abstract_deadline")
     year = conf.get("year", "")
 
-    # sec-deadlines stores deadline (and optionally abstract_deadline) as a list of strings
     if isinstance(raw_dl, list):
         cycles = []
         for idx, dl_item in enumerate(raw_dl):
@@ -112,6 +132,11 @@ def extract_category(conf):
     return "Security/AI"
 
 def fetch_all_conferences():
+    keywords = load_keywords()
+    if not keywords:
+        print("No active conference keywords configured in SharePoint. Skipping scrape.")
+        return []
+
     sec_data = parse_yaml(SEC_URL)
     ai_data = parse_yaml(AI_URL)
     all_raw = sec_data + ai_data
@@ -125,19 +150,18 @@ def fetch_all_conferences():
     skipped_unparseable = 0
 
     for conf in all_raw:
-        matched_kw = find_matched_keywords(conf)
+        matched_kw = find_matched_keywords(conf, keywords)
         if not matched_kw:
             continue
         matched_conf_count += 1
 
-        # sec-deadlines uses 'name'; ai-deadlines uses 'title'
         conf_name = str(conf.get("name") or conf.get("title") or "Unknown Conference").strip()
         category = extract_category(conf)
         cycles = normalize_cycles(conf)
 
         for cycle in cycles:
             if isinstance(cycle, dict):
-                raw_deadline = cycle.get("deadline") or cycle.get("date") or conf.get("deadline") or conf.get("date")
+                raw_deadline = cycle.get("deadline") or conf.get("deadline")
                 abstract_dl = cycle.get("abstract_deadline") or cycle.get("abstract") or "N/A"
                 year_val = cycle.get("year") or conf.get("year")
                 cycle_type = str(cycle.get("type") or cycle.get("round") or "").strip()
@@ -159,6 +183,7 @@ def fetch_all_conferences():
             suffix = f" ({cycle_type})" if cycle_type else ""
             entry_title = f"{conf_name} {year}{suffix}".strip()
             deadline_str = str(raw_deadline).strip()
+            conf_date_str = extract_conference_date(conf, cycle)
 
             dedup_key = (entry_title, deadline_str)
             if dedup_key in seen:
@@ -169,6 +194,7 @@ def fetch_all_conferences():
                 "Title": entry_title,
                 "Deadline": deadline_str,
                 "AbstractDeadline": str(abstract_dl).strip(),
+                "ConferenceDate": conf_date_str,
                 "Location": str(conf.get("place", conf.get("location", "TBA"))).strip(),
                 "Category": category,
                 "MatchedKeywords": ", ".join(matched_kw),

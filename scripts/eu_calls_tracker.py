@@ -6,13 +6,21 @@ import requests
 
 SEARCH_API_URL = "https://api.tech.ec.europa.eu/search-api/prod/rest/search"
 FACET_API_URL = "https://api.tech.ec.europa.eu/search-api/prod/rest/facet"
+KEYWORDS_CONFIG_PATH = "config/keywords.json"
 
-KEYWORDS = [
-    "privacy", "anonymisation", "anonymization", "synthetic data", "federated learning",
-    "differential privacy", "homomorphic encryption", "adversarial", "poisoning",
-    "intrusion detection", "anomaly detection", "trustworthy ai", "cybersecurity",
-    "security", "ai models"
-]
+def load_keywords():
+    """Load EU call keywords exported from SharePoint (no hardcoded fallback)."""
+    if not os.path.exists(KEYWORDS_CONFIG_PATH):
+        print(f"Config file '{KEYWORDS_CONFIG_PATH}' not found. No keywords loaded.")
+        return []
+    try:
+        with open(KEYWORDS_CONFIG_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            raw_kw = data.get("eu_calls", [])
+            return [str(k).strip().lower() for k in raw_kw if str(k).strip()]
+    except Exception as e:
+        print(f"Error reading '{KEYWORDS_CONFIG_PATH}': {e}")
+        return []
 
 def clean_html(raw_text):
     """Strip HTML tags, decode entities (&nbsp;), and normalize whitespace."""
@@ -77,7 +85,11 @@ def fetch_facet_lookup(query_dict):
     return lookup
 
 def fetch_eu_calls():
-    # Types 1 (Topics), 2 (General Calls), 8 (Cascade Funding) | Status: Open & Forthcoming
+    keywords = load_keywords()
+    if not keywords:
+        print("No active EU call keywords configured in SharePoint. Skipping scrape.")
+        return []
+
     query_dict = {
         "bool": {
             "must": [
@@ -88,10 +100,8 @@ def fetch_eu_calls():
     }
     sort_dict = {"field": "startDate", "order": "DESC"}
 
-    # Step 1: Fetch reference code translations from the Facet API
     facet_lookup = fetch_facet_lookup(query_dict)
 
-    # Step 2: Fetch matching calls from the Search API
     matched_calls = []
     seen_ids = set()
     page = 1
@@ -123,14 +133,12 @@ def fetch_eu_calls():
             break
 
         for item in results:
-            # Enforce English-only records
             lang = extract_field(item, ["language"], "en").lower()
             if lang != "en":
                 continue
 
             meta = item.get("metadata", {}) if isinstance(item.get("metadata"), dict) else {}
 
-            # Search across Title, Summary, Content, Keywords, and cleaned Topic Description
             raw_sections = [
                 item.get("title", ""),
                 item.get("summary", ""),
@@ -141,7 +149,7 @@ def fetch_eu_calls():
             ]
             searchable_text = clean_html(" ".join(str(s) for s in raw_sections)).lower()
 
-            found_kw = [kw for kw in KEYWORDS if kw in searchable_text]
+            found_kw = [kw for kw in keywords if kw in searchable_text]
             if not found_kw:
                 continue
 
@@ -153,7 +161,6 @@ def fetch_eu_calls():
             title = clean_html(extract_field(item, ["title", "callTitle"], "EU Funding Call"))
             deadline = extract_field(item, ["deadlineDate", "plannedOpeningDate"], "See Call Page")
 
-            # Translate numeric status and frameworkProgramme codes via Facet API lookup
             status_code = extract_field(item, ["status", "statusCode"], "").strip()
             status_label = facet_lookup.get(
                 status_code,
