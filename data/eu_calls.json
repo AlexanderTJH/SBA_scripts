@@ -1485,15 +1485,6 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL4-2024-SPACE-01-36.json"
   },
   {
-    "Title": "Facilitate the engagement in global ICT standardisation development (CSA)",
-    "TopicID": "HORIZON-CL4-2024-HUMAN-01-61",
-    "Deadline": "2024-03-19T17:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "cybersecurity, security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL4-2024-HUMAN-01-61.json"
-  },
-  {
     "Title": "Novel paradigms and approaches, towards AI-powered robots– step change in functionality (AI, data and robotics partnership) (RIA)",
     "TopicID": "HORIZON-CL4-2024-DIGITAL-EMERGING-01-03",
     "Deadline": "2024-03-19T17:00:00.000+0000",
@@ -1519,6 +1510,15 @@
     "MatchedKeywords": "security",
     "Programme": "Horizon Europe (HORIZON)",
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL4-2024-DIGITAL-EMERGING-01-45.json"
+  },
+  {
+    "Title": "Facilitate the engagement in global ICT standardisation development (CSA)",
+    "TopicID": "HORIZON-CL4-2024-HUMAN-01-61",
+    "Deadline": "2024-03-19T17:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "cybersecurity, security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL4-2024-HUMAN-01-61.json"
   },
   {
     "Title": "Developing EU methodological frameworks for clinical/performance evaluation and post-market clinical/performance follow-up of medical devices and in vitro diagnostic medical devices (IVDs)",
