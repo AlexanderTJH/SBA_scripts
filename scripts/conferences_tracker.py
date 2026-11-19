@@ -8,13 +8,11 @@ import yaml
 SEC_URL = "https://raw.githubusercontent.com/sec-deadlines/sec-deadlines.github.io/master/_data/conferences.yml"
 AI_URL = "https://raw.githubusercontent.com/paperswithcode/ai-deadlines/gh-pages/_data/conferences.yml"
 
-# Target conference acronyms / titles for MLDM
 TARGET_CONFS = {
     "pets", "s&p", "sp", "usenix", "ccs", "ndss", "eurosp", "esorics", "ares",
     "neurips", "icml", "iclr", "aaai", "ijcai", "kdd", "cd-make"
 }
 
-# MLDM research keywords to surface in MatchedKeywords when present in metadata
 TOPIC_KEYWORDS = [
     "privacy", "anonymisation", "anonymization", "synthetic data", "federated learning",
     "differential privacy", "homomorphic encryption", "adversarial", "poisoning",
@@ -55,7 +53,6 @@ def find_matched_keywords(conf):
     conf_id = str(conf.get("id", ""))
     header_text = f"{title} {conf_id}".lower()
 
-    # Match conference acronyms using word boundaries to avoid partial-word false positives
     matched_confs = [
         tc for tc in TARGET_CONFS
         if tc == conf_id.lower() or re.search(rf"\b{re.escape(tc)}\b", header_text)
@@ -85,30 +82,52 @@ def fetch_all_conferences():
     results = []
     seen = set()
 
+    matched_conf_count = 0
+    skipped_past = 0
+    skipped_unparseable = 0
+
     for conf in all_raw:
         matched_kw = find_matched_keywords(conf)
         if not matched_kw:
             continue
+        matched_conf_count += 1
 
         title = str(conf.get("title", "")).strip()
-        deadlines = conf.get("deadlines", [])
-        if not deadlines and "deadline" in conf:
-            deadlines = [{
-                "deadline": conf.get("deadline"),
+        deadlines = conf.get("deadlines")
+
+        # Normalize different YAML structures into a list of cycle dicts
+        if isinstance(deadlines, list) and deadlines:
+            cycles = deadlines
+        else:
+            cycles = [{
+                "deadline": conf.get("deadline") or conf.get("date"),
                 "abstract_deadline": conf.get("abstract_deadline", "N/A"),
                 "year": conf.get("year", "")
             }]
 
-        for cycle in deadlines:
-            raw_deadline = cycle.get("deadline", conf.get("deadline"))
-            deadline_dt = parse_deadline_date(raw_deadline)
+        for cycle in cycles:
+            if isinstance(cycle, dict):
+                raw_deadline = cycle.get("deadline") or cycle.get("date") or conf.get("deadline") or conf.get("date")
+                abstract_dl = cycle.get("abstract_deadline") or cycle.get("abstract") or conf.get("abstract_deadline") or "N/A"
+                year_val = cycle.get("year") or conf.get("year")
+                cycle_type = str(cycle.get("type") or cycle.get("round") or "").strip()
+            else:
+                raw_deadline = cycle
+                abstract_dl = conf.get("abstract_deadline", "N/A")
+                year_val = conf.get("year")
+                cycle_type = ""
 
-            # Skip past or unparseable deadlines
-            if deadline_dt is None or deadline_dt < today:
+            deadline_dt = parse_deadline_date(raw_deadline)
+            if deadline_dt is None:
+                skipped_unparseable += 1
+                continue
+            if deadline_dt < today:
+                skipped_past += 1
                 continue
 
-            year = cycle.get("year", conf.get("year", deadline_dt.year))
-            entry_title = f"{title} {year}".strip()
+            year = year_val or deadline_dt.year
+            suffix = f" ({cycle_type})" if cycle_type else ""
+            entry_title = f"{title} {year}{suffix}".strip()
             deadline_str = str(raw_deadline).strip()
 
             dedup_key = (entry_title, deadline_str)
@@ -119,15 +138,18 @@ def fetch_all_conferences():
             results.append({
                 "Title": entry_title,
                 "Deadline": deadline_str,
-                "AbstractDeadline": str(cycle.get("abstract_deadline", "N/A")),
+                "AbstractDeadline": str(abstract_dl),
                 "Location": str(conf.get("place", conf.get("location", "TBA"))),
                 "Category": str(conf.get("sub", "Security/AI")),
                 "MatchedKeywords": ", ".join(matched_kw),
                 "Url": str(conf.get("link", ""))
             })
 
-    # Sort chronologically by upcoming deadline
     results.sort(key=lambda x: str(parse_deadline_date(x["Deadline"])))
+    print(
+        f"Total fetched: {len(all_raw)} | Matched target conferences: {matched_conf_count} | "
+        f"Skipped (past): {skipped_past} | Skipped (no/TBA date): {skipped_unparseable}"
+    )
     return results
 
 if __name__ == "__main__":
