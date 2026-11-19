@@ -8,17 +8,20 @@ import yaml
 SEC_URL = "https://raw.githubusercontent.com/sec-deadlines/sec-deadlines.github.io/master/_data/conferences.yml"
 AI_URL = "https://raw.githubusercontent.com/paperswithcode/ai-deadlines/gh-pages/_data/conferences.yml"
 
-TARGET_CONFS = {
-    "pets", "s&p", "sp", "usenix", "ccs", "ndss", "eurosp", "esorics", "ares",
-    "neurips", "icml", "iclr", "aaai", "ijcai", "kdd", "cd-make"
-}
-
-TOPIC_KEYWORDS = [
+# MLDM keywords used to filter all conferences in the YAML feeds
+KEYWORDS = [
     "privacy", "anonymisation", "anonymization", "synthetic data", "federated learning",
-    "differential privacy", "homomorphic encryption", "adversarial", "poisoning",
-    "intrusion detection", "anomaly detection", "trustworthy ai", "cybersecurity",
-    "security", "machine learning", "ai"
+    "differential privacy", "homomorphic encryption", "cryptography",
+    "adversarial", "poisoning", "backdoor", "trustworthy ai", "robust ai",
+    "intrusion detection", "anomaly detection", "cybersecurity", "security",
+    "machine learning", "data management", "artificial intelligence", "ai"
 ]
+
+# Non-descriptive fields to exclude from keyword matching
+EXCLUDED_FIELDS = {
+    "link", "place", "location", "timezone", "date", "deadline",
+    "abstract_deadline", "start", "end", "year", "hindex"
+}
 
 def parse_yaml(url):
     try:
@@ -48,30 +51,26 @@ def parse_deadline_date(raw_deadline):
     return None
 
 def find_matched_keywords(conf):
-    """Return matched target conference identifiers and MLDM domain keywords."""
-    title = str(conf.get("title", ""))
-    conf_id = str(conf.get("id", ""))
-    header_text = f"{title} {conf_id}".lower()
-
-    matched_confs = [
-        tc for tc in TARGET_CONFS
-        if tc == conf_id.lower() or re.search(rf"\b{re.escape(tc)}\b", header_text)
-    ]
-
-    if not matched_confs:
+    """Scan all descriptive YAML fields for MLDM keywords using word boundaries."""
+    if not isinstance(conf, dict):
         return []
 
-    full_text = " ".join(
-        str(conf.get(field, ""))
-        for field in ("title", "id", "sub", "note", "description", "comment")
-    ).lower()
+    text_parts = []
+    for key, value in conf.items():
+        if key in EXCLUDED_FIELDS or value is None:
+            continue
+        if isinstance(value, list):
+            text_parts.extend(str(v) for v in value)
+        elif not isinstance(value, dict):
+            text_parts.append(str(value))
 
-    matched_topics = [
-        kw for kw in TOPIC_KEYWORDS
-        if re.search(rf"\b{re.escape(kw)}\b", full_text)
+    searchable_text = " ".join(text_parts).lower()
+
+    matched = [
+        kw for kw in KEYWORDS
+        if re.search(rf"\b{re.escape(kw)}\b", searchable_text)
     ]
-
-    return sorted(set(matched_confs + matched_topics))
+    return sorted(set(matched))
 
 def fetch_all_conferences():
     sec_data = parse_yaml(SEC_URL)
@@ -95,7 +94,6 @@ def fetch_all_conferences():
         title = str(conf.get("title", "")).strip()
         deadlines = conf.get("deadlines")
 
-        # Normalize different YAML structures into a list of cycle dicts
         if isinstance(deadlines, list) and deadlines:
             cycles = deadlines
         else:
@@ -147,7 +145,7 @@ def fetch_all_conferences():
 
     results.sort(key=lambda x: str(parse_deadline_date(x["Deadline"])))
     print(
-        f"Total fetched: {len(all_raw)} | Matched target conferences: {matched_conf_count} | "
+        f"Total fetched: {len(all_raw)} | Matched by keywords: {matched_conf_count} | "
         f"Skipped (past): {skipped_past} | Skipped (no/TBA date): {skipped_unparseable}"
     )
     return results
