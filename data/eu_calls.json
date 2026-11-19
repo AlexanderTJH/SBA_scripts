@@ -54,15 +54,6 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-07-D3-16"
   },
   {
-    "Title": "Enhancing Resilience and Accuracy in Positioning, Navigation, and Timing (PNT) Systems and e-conspicuity solutions",
-    "TopicID": "HORIZON-CL5-2027-06-D6-11",
-    "Deadline": "2027-10-07T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "privacy",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-11"
-  },
-  {
     "Title": "Advancing interdisciplinary, data-driven research at the biodiversity- health interface under a One Health approach",
     "TopicID": "HORIZON-NATURE-2027-03-01",
     "Deadline": "2027-09-16T00:00:00.000+0000",
@@ -70,6 +61,15 @@
     "MatchedKeywords": "ai models",
     "Programme": "Horizon Europe (HORIZON)",
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-NATURE-2027-03-01"
+  },
+  {
+    "Title": "Enhancing Resilience and Accuracy in Positioning, Navigation, and Timing (PNT) Systems and e-conspicuity solutions",
+    "TopicID": "HORIZON-CL5-2027-06-D6-11",
+    "Deadline": "2027-10-07T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "privacy",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-06-D6-11"
   },
   {
     "Title": "Holistic solutions for CCAM integration in critical scenarios (CCAM Partnership)",
@@ -108,6 +108,60 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-EIE-2027-01-CONNECT-01-CANCELLED"
   },
   {
+    "Title": "Societal impact of cultural heritage",
+    "TopicID": "HORIZON-CL2-2027-01-HERITAGE-07",
+    "Deadline": "2027-09-23T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-07"
+  },
+  {
+    "Title": "Advisory support and network for countering and preventing radicalisation, extremism, hate speech and polarisation",
+    "TopicID": "HORIZON-CL2-2027-01-DEMOCRACY-01",
+    "Deadline": "2027-09-23T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-01"
+  },
+  {
+    "Title": "Global Human Rights and EU values",
+    "TopicID": "HORIZON-CL2-2027-01-DEMOCRACY-08",
+    "Deadline": "2027-09-23T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-08"
+  },
+  {
+    "Title": "The role of private companies in democracy",
+    "TopicID": "HORIZON-CL2-2027-01-DEMOCRACY-07",
+    "Deadline": "2027-09-23T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "privacy",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-07"
+  },
+  {
+    "Title": "Women’s, LGBTIQ and minority rights in a context of autocracy, conflict and geopolitical shifts",
+    "TopicID": "HORIZON-CL2-2027-01-DEMOCRACY-02",
+    "Deadline": "2027-09-23T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-02"
+  },
+  {
+    "Title": "AI4Creatives Support Platform: embracing a fair AI revolution",
+    "TopicID": "HORIZON-CL2-2027-01-HERITAGE-02",
+    "Deadline": "2027-09-23T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "ai models",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-02"
+  },
+  {
     "Title": "Development aid and democratic governance",
     "TopicID": "HORIZON-CL2-2027-01-DEMOCRACY-05",
     "Deadline": "2027-09-23T00:00:00.000+0000",
@@ -124,51 +178,6 @@
     "MatchedKeywords": "security",
     "Programme": "Horizon Europe (HORIZON)",
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-01"
-  },
-  {
-    "Title": "The role of private companies in democracy",
-    "TopicID": "HORIZON-CL2-2027-01-DEMOCRACY-07",
-    "Deadline": "2027-09-23T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "privacy",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-07"
-  },
-  {
-    "Title": "Societal impact of cultural heritage",
-    "TopicID": "HORIZON-CL2-2027-01-HERITAGE-07",
-    "Deadline": "2027-09-23T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-07"
-  },
-  {
-    "Title": "Addressing the impact of artificial intelligence, cyberviolence, and deepfakes on equality, democracy and inclusive societies",
-    "TopicID": "HORIZON-CL2-2027-01-DEMOCRACY-04",
-    "Deadline": "2027-09-23T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "ai models",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-04"
-  },
-  {
-    "Title": "Global Human Rights and EU values",
-    "TopicID": "HORIZON-CL2-2027-01-DEMOCRACY-08",
-    "Deadline": "2027-09-23T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-08"
-  },
-  {
-    "Title": "Women’s, LGBTIQ and minority rights in a context of autocracy, conflict and geopolitical shifts",
-    "TopicID": "HORIZON-CL2-2027-01-DEMOCRACY-02",
-    "Deadline": "2027-09-23T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-02"
   },
   {
     "Title": "Scaling and deploying innovations in migration management",
@@ -189,22 +198,22 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-TRANSFO-04"
   },
   {
-    "Title": "AI4Creatives Support Platform: embracing a fair AI revolution",
-    "TopicID": "HORIZON-CL2-2027-01-HERITAGE-02",
+    "Title": "Addressing the impact of artificial intelligence, cyberviolence, and deepfakes on equality, democracy and inclusive societies",
+    "TopicID": "HORIZON-CL2-2027-01-DEMOCRACY-04",
     "Deadline": "2027-09-23T00:00:00.000+0000",
     "Status": "Forthcoming",
     "MatchedKeywords": "ai models",
     "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-HERITAGE-02"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-04"
   },
   {
-    "Title": "Advisory support and network for countering and preventing radicalisation, extremism, hate speech and polarisation",
-    "TopicID": "HORIZON-CL2-2027-01-DEMOCRACY-01",
-    "Deadline": "2027-09-23T00:00:00.000+0000",
+    "Title": "Demonstration for Long-duration Battery Energy Storage Systems (BATT4EU Partnership)",
+    "TopicID": "HORIZON-CL5-2027-05-D2-08",
+    "Deadline": "2027-09-15T00:00:00.000+0000",
     "Status": "Forthcoming",
     "MatchedKeywords": "security",
     "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL2-2027-01-DEMOCRACY-01"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-05-D2-08"
   },
   {
     "Title": "Demonstration of industrial excess/waste heat conversion to mechanical or electrical power",
@@ -216,15 +225,6 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-05-D4-09"
   },
   {
-    "Title": "Open topic on increasing security of citizens against terrorism, including in public spaces",
-    "TopicID": "HORIZON-CL3-2027-01-FCT-04",
-    "Deadline": "2027-11-04T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-04"
-  },
-  {
     "Title": "Detection and characterisation of threats or illegal/ smuggled goods in cargo",
     "TopicID": "HORIZON-CL3-2027-01-BM-03",
     "Deadline": "2027-11-04T00:00:00.000+0000",
@@ -234,6 +234,15 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-BM-03"
   },
   {
+    "Title": "Demand-led innovation in security",
+    "TopicID": "HORIZON-CL3-2027-01-SSRI-03",
+    "Deadline": "2027-11-04T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-SSRI-03"
+  },
+  {
     "Title": "Enhancing decision support system for disaster crises: leveraging emerging technologies for improved civil preparedness and crisis management",
     "TopicID": "HORIZON-CL3-2027-01-DRS-03",
     "Deadline": "2027-11-04T00:00:00.000+0000",
@@ -241,6 +250,96 @@
     "MatchedKeywords": "security, trustworthy ai",
     "Programme": "Horizon Europe (HORIZON)",
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-DRS-03"
+  },
+  {
+    "Title": "Societal resilience, engagement of the younger generations and digital innovation for disaster resilience",
+    "TopicID": "HORIZON-CL3-2027-01-DRS-02",
+    "Deadline": "2027-11-04T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-DRS-02"
+  },
+  {
+    "Title": "Open grounds for future pre-commercial procurement of innovative security technologies",
+    "TopicID": "HORIZON-CL3-2027-01-SSRI-02",
+    "Deadline": "2027-11-04T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "privacy, security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-SSRI-02"
+  },
+  {
+    "Title": "Enhancing physical protection of critical infrastructures",
+    "TopicID": "HORIZON-CL3-2027-01-INFRA-01",
+    "Deadline": "2027-11-04T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-INFRA-01"
+  },
+  {
+    "Title": "Open topic on increasing security of citizens against terrorism, including in public spaces",
+    "TopicID": "HORIZON-CL3-2027-01-FCT-04",
+    "Deadline": "2027-11-04T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-04"
+  },
+  {
+    "Title": "Intergenerational neighbourhoods and communities aligned with the New European Bauhaus",
+    "TopicID": "HORIZON-NEB-2027-01-PARTICIPATION-02",
+    "Deadline": "2027-12-01T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-NEB-2027-01-PARTICIPATION-02"
+  },
+  {
+    "Title": "Online harms detection and investigation tools using a short development cycle model",
+    "TopicID": "HORIZON-CL3-2027-01-FCT-01",
+    "Deadline": "2027-11-04T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-01"
+  },
+  {
+    "Title": "Trusted, secure, quality future digital travel credentials",
+    "TopicID": "HORIZON-CL3-2027-01-BM-02",
+    "Deadline": "2027-11-04T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-BM-02"
+  },
+  {
+    "Title": "Community policing in diverse societies in Europe",
+    "TopicID": "HORIZON-CL3-2027-01-FCT-02",
+    "Deadline": "2027-11-04T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-02"
+  },
+  {
+    "Title": "Combining conventional and innovative construction materials, products and techniques for sustainable and beautiful buildings",
+    "TopicID": "HORIZON-NEB-2027-01-REGEN-01",
+    "Deadline": "2027-12-01T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-NEB-2027-01-REGEN-01"
+  },
+  {
+    "Title": "Enhancing preparedness for large-scale cross-border disasters",
+    "TopicID": "HORIZON-CL3-2027-01-DRS-04",
+    "Deadline": "2027-11-04T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-DRS-04"
   },
   {
     "Title": "Open Topic on advanced protective gear optimized for CBRN-E (Chemical, Biological, Radiological, Nuclear, Explosives) environments and new generation of smart protective equipment for disaster responders",
@@ -279,13 +378,13 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-05"
   },
   {
-    "Title": "Demand-led innovation in security",
-    "TopicID": "HORIZON-CL3-2027-01-SSRI-03",
+    "Title": "Impact of malicious use of Open-Source Intelligence on critical infrastructure business continuity",
+    "TopicID": "HORIZON-CL3-2027-01-INFRA-02",
     "Deadline": "2027-11-04T00:00:00.000+0000",
     "Status": "Forthcoming",
     "MatchedKeywords": "security",
     "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-SSRI-03"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-INFRA-02"
   },
   {
     "Title": "Open topic on research and innovation for effective management of EU external borders that promotes fundamental rights and EU values",
@@ -297,103 +396,13 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-BM-01"
   },
   {
-    "Title": "Impact of malicious use of Open-Source Intelligence on critical infrastructure business continuity",
-    "TopicID": "HORIZON-CL3-2027-01-INFRA-02",
-    "Deadline": "2027-11-04T00:00:00.000+0000",
+    "Title": "Science-policy support to the implementation of EU and global biodiversity policies and strategies",
+    "TopicID": "HORIZON-CL6-2027-01-BIODIV-02",
+    "Deadline": "2027-09-22T00:00:00.000+0000",
     "Status": "Forthcoming",
     "MatchedKeywords": "security",
     "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-INFRA-02"
-  },
-  {
-    "Title": "Online harms detection and investigation tools using a short development cycle model",
-    "TopicID": "HORIZON-CL3-2027-01-FCT-01",
-    "Deadline": "2027-11-04T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-01"
-  },
-  {
-    "Title": "Intergenerational neighbourhoods and communities aligned with the New European Bauhaus",
-    "TopicID": "HORIZON-NEB-2027-01-PARTICIPATION-02",
-    "Deadline": "2027-12-01T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-NEB-2027-01-PARTICIPATION-02"
-  },
-  {
-    "Title": "Trusted, secure, quality future digital travel credentials",
-    "TopicID": "HORIZON-CL3-2027-01-BM-02",
-    "Deadline": "2027-11-04T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-BM-02"
-  },
-  {
-    "Title": "Community policing in diverse societies in Europe",
-    "TopicID": "HORIZON-CL3-2027-01-FCT-02",
-    "Deadline": "2027-11-04T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-FCT-02"
-  },
-  {
-    "Title": "Enhancing preparedness for large-scale cross-border disasters",
-    "TopicID": "HORIZON-CL3-2027-01-DRS-04",
-    "Deadline": "2027-11-04T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-DRS-04"
-  },
-  {
-    "Title": "Societal resilience, engagement of the younger generations and digital innovation for disaster resilience",
-    "TopicID": "HORIZON-CL3-2027-01-DRS-02",
-    "Deadline": "2027-11-04T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-DRS-02"
-  },
-  {
-    "Title": "Open grounds for future pre-commercial procurement of innovative security technologies",
-    "TopicID": "HORIZON-CL3-2027-01-SSRI-02",
-    "Deadline": "2027-11-04T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "privacy, security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-SSRI-02"
-  },
-  {
-    "Title": "Enhancing physical protection of critical infrastructures",
-    "TopicID": "HORIZON-CL3-2027-01-INFRA-01",
-    "Deadline": "2027-11-04T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL3-2027-01-INFRA-01"
-  },
-  {
-    "Title": "Combining conventional and innovative construction materials, products and techniques for sustainable and beautiful buildings",
-    "TopicID": "HORIZON-NEB-2027-01-REGEN-01",
-    "Deadline": "2027-12-01T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-NEB-2027-01-REGEN-01"
-  },
-  {
-    "Title": "Demonstration for Long-duration Battery Energy Storage Systems (BATT4EU Partnership)",
-    "TopicID": "HORIZON-CL5-2027-05-D2-08",
-    "Deadline": "2027-09-15T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-05-D2-08"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-02"
   },
   {
     "Title": "Health of ecosystems and wild species, predictions and impacts on human health, in the face of existing and emerging stressors, from a One Health approach",
@@ -403,33 +412,6 @@
     "MatchedKeywords": "security",
     "Programme": "Horizon Europe (HORIZON)",
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-07"
-  },
-  {
-    "Title": "Improving biomass flows for a sustainable and circular bioeconomy",
-    "TopicID": "HORIZON-CL6-2027-01-CIRCBIO-07",
-    "Deadline": "2027-09-22T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-CIRCBIO-07"
-  },
-  {
-    "Title": "Living Labs for the eradication and/or management of invasive alien species",
-    "TopicID": "HORIZON-CL6-2027-01-BIODIV-04",
-    "Deadline": "2027-09-22T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "privacy",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-04"
-  },
-  {
-    "Title": "Science-policy support to the implementation of EU and global biodiversity policies and strategies",
-    "TopicID": "HORIZON-CL6-2027-01-BIODIV-02",
-    "Deadline": "2027-09-22T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-01-BIODIV-02"
   },
   {
     "Title": "African Union – European Union Partnership on Food and Nutrition Security and Sustainable Agriculture (FNSSA)",
@@ -666,6 +648,15 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-03-D5-15"
   },
   {
+    "Title": "Autonomous vessels in short sea shipping and inland waterways",
+    "TopicID": "HORIZON-CL5-2027-03-D5-16",
+    "Deadline": "2027-04-14T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-03-D5-16"
+  },
+  {
     "Title": "Onboard renewable energy solutions and energy saving measures to reduce the fuel consumption of ships by at least 55% (ZEWT Partnership)",
     "TopicID": "HORIZON-CL5-2027-03-D5-14",
     "Deadline": "2027-04-14T00:00:00.000+0000",
@@ -684,15 +675,6 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-WIDERA-2027-05-ERA-05"
   },
   {
-    "Title": "Large scale operational validation and upscaling of state-of-the-art (Generative) AI tools and models powering a next generation digital energy system",
-    "TopicID": "HORIZON-CL5-2027-02-D3-24",
-    "Deadline": "2027-03-31T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "ai models",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D3-24"
-  },
-  {
     "Title": "Innovative technologies and solutions to improve wave and tidal energy systems",
     "TopicID": "HORIZON-CL5-2027-02-D3-09",
     "Deadline": "2027-03-31T00:00:00.000+0000",
@@ -702,13 +684,22 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D3-09"
   },
   {
-    "Title": "Production technologies for solar photovoltaics beyond the state-of-the-art (EUPI-PV Partnership)",
-    "TopicID": "HORIZON-CL5-2027-02-D3-15",
+    "Title": "Large scale operational validation and upscaling of state-of-the-art (Generative) AI tools and models powering a next generation digital energy system",
+    "TopicID": "HORIZON-CL5-2027-02-D3-24",
+    "Deadline": "2027-03-31T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "ai models",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D3-24"
+  },
+  {
+    "Title": "Support to the SET Plan stakeholders’ groups in geothermal energy",
+    "TopicID": "HORIZON-CL5-2027-02-D3-33",
     "Deadline": "2027-03-31T00:00:00.000+0000",
     "Status": "Forthcoming",
     "MatchedKeywords": "security",
     "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D3-15"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D3-33"
   },
   {
     "Title": "Concentrated solar thermal systems for decarbonising industrial processes",
@@ -718,6 +709,15 @@
     "MatchedKeywords": "security",
     "Programme": "Horizon Europe (HORIZON)",
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D3-07"
+  },
+  {
+    "Title": "Production technologies for solar photovoltaics beyond the state-of-the-art (EUPI-PV Partnership)",
+    "TopicID": "HORIZON-CL5-2027-02-D3-15",
+    "Deadline": "2027-03-31T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D3-15"
   },
   {
     "Title": "Renewable Energy Valleys in Africa to increase energy security and energy access in Africa",
@@ -738,15 +738,6 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D3-08"
   },
   {
-    "Title": "Support to the SET Plan stakeholders’ groups in geothermal energy",
-    "TopicID": "HORIZON-CL5-2027-02-D3-33",
-    "Deadline": "2027-03-31T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-02-D3-33"
-  },
-  {
     "Title": "Skills for innovative SMEs",
     "TopicID": "HORIZON-BRIDGING-2027-05-01",
     "Deadline": "2027-03-03T00:00:00.000+0000",
@@ -763,42 +754,6 @@
     "MatchedKeywords": "security",
     "Programme": "Horizon Europe (HORIZON)",
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-13"
-  },
-  {
-    "Title": "Apply AI: AI-Driven Robotics for Industry: Enabling System Integration and Adoption (IA) (Partnership in AI, Data and Robotics)",
-    "TopicID": "HORIZON-CL4-2027-04-DIGITAL-EMERGING-05",
-    "Deadline": "2027-03-18T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "ai models",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DIGITAL-EMERGING-05"
-  },
-  {
-    "Title": "Advanced integrated photonic devices for extended features and ultra-low power consumption (RIA) (Photonics Partnership)",
-    "TopicID": "HORIZON-CL4-2027-05-DIGITAL-EMERGING-03",
-    "Deadline": "2027-03-18T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-05-DIGITAL-EMERGING-03"
-  },
-  {
-    "Title": "New approaches for decentralized, federated and sustainable AI data processing (RIA)",
-    "TopicID": "HORIZON-CL4-2027-04-DATA-03",
-    "Deadline": "2027-03-18T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "federated learning, privacy, security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DATA-03"
-  },
-  {
-    "Title": "Create a thriving and competitive Virtual Worlds and Web 4.0 ecosystem (CSA) (Virtual Worlds Partnership)",
-    "TopicID": "HORIZON-CL4-2027-04-HUMAN-02",
-    "Deadline": "2027-03-18T00:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "privacy, security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-HUMAN-02"
   },
   {
     "Title": "Apply AI: Challenge-Driven AI Innovation Booster in Apply AI prioritised sectors (RIA) (Partnership in AI, Data and Robotics)",
@@ -819,6 +774,15 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DIGITAL-EMERGING-11"
   },
   {
+    "Title": "Create a thriving and competitive Virtual Worlds and Web 4.0 ecosystem (CSA) (Virtual Worlds Partnership)",
+    "TopicID": "HORIZON-CL4-2027-04-HUMAN-02",
+    "Deadline": "2027-03-18T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "privacy, security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-HUMAN-02"
+  },
+  {
     "Title": "Demand-side 3C pilot demonstrators on converged Telco Edge Cloud Infrastructure (IA)",
     "TopicID": "HORIZON-CL4-2027-04-DATA-08",
     "Deadline": "2027-03-18T00:00:00.000+0000",
@@ -826,6 +790,33 @@
     "MatchedKeywords": "ai models, privacy, security",
     "Programme": "Horizon Europe (HORIZON)",
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DATA-08"
+  },
+  {
+    "Title": "New approaches for decentralized, federated and sustainable AI data processing (RIA)",
+    "TopicID": "HORIZON-CL4-2027-04-DATA-03",
+    "Deadline": "2027-03-18T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "federated learning, privacy, security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DATA-03"
+  },
+  {
+    "Title": "Advanced integrated photonic devices for extended features and ultra-low power consumption (RIA) (Photonics Partnership)",
+    "TopicID": "HORIZON-CL4-2027-05-DIGITAL-EMERGING-03",
+    "Deadline": "2027-03-18T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-05-DIGITAL-EMERGING-03"
+  },
+  {
+    "Title": "Apply AI: AI-Driven Robotics for Industry: Enabling System Integration and Adoption (IA) (Partnership in AI, Data and Robotics)",
+    "TopicID": "HORIZON-CL4-2027-04-DIGITAL-EMERGING-05",
+    "Deadline": "2027-03-18T00:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "ai models",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-04-DIGITAL-EMERGING-05"
   },
   {
     "Title": "Enhancing the institutional capacity of the Economic Security Bureau of Ukraine in combating currency counterfeiting through the implementation of the International Convention for the Suppression of Counterfeiting Currency, signed in Geneva on 20 Apr",
@@ -853,15 +844,6 @@
     "MatchedKeywords": "security",
     "Programme": "Horizon Europe (HORIZON)",
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-01-ENVHLTH-MISSCLIMA-03"
-  },
-  {
-    "Title": "Development of novel small molecule antiviral therapeutics for pathogens with epidemic potential",
-    "TopicID": "HORIZON-HLTH-2027-01-DISEASE-05",
-    "Deadline": "2027-02-17T00:00:00.000+0000",
-    "Status": "Open for submission",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-01-DISEASE-05"
   },
   {
     "Title": "Development of monoclonal antibodies to prevent and treat infections from Filo-, Nairo-, Phenui-, Picorna- and Toga viruses",
@@ -900,6 +882,15 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-02-DISEASE-01-two-stage"
   },
   {
+    "Title": "Development of novel small molecule antiviral therapeutics for pathogens with epidemic potential",
+    "TopicID": "HORIZON-HLTH-2027-01-DISEASE-05",
+    "Deadline": "2027-02-17T00:00:00.000+0000",
+    "Status": "Open for submission",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-01-DISEASE-05"
+  },
+  {
     "Title": "NEWS - Media Freedom Rapid Response Mechanism",
     "TopicID": "CREA-CROSS-2027-MFP",
     "Deadline": "2027-01-27T00:00:00.000+0000",
@@ -918,15 +909,6 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-BRIDGING-2027-02-05"
   },
   {
-    "Title": "EU Frontier AI Initiative: Advanced Scaling Frameworks for High-Performance AI Models (RIA) - Apply AI",
-    "TopicID": "HORIZON-BRIDGING-2027-01-13",
-    "Deadline": "2027-02-16T00:00:00.000+0000",
-    "Status": "Open for submission",
-    "MatchedKeywords": "ai models",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-BRIDGING-2027-01-13"
-  },
-  {
     "Title": "Autonomous Drive Ambition Cities (IA) - Apply AI",
     "TopicID": "HORIZON-BRIDGING-2027-01-10",
     "Deadline": "2027-02-16T00:00:00.000+0000",
@@ -934,6 +916,15 @@
     "MatchedKeywords": "ai models, cybersecurity, security",
     "Programme": "Horizon Europe (HORIZON)",
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-BRIDGING-2027-01-10"
+  },
+  {
+    "Title": "EU Frontier AI Initiative: Advanced Scaling Frameworks for High-Performance AI Models (RIA) - Apply AI",
+    "TopicID": "HORIZON-BRIDGING-2027-01-13",
+    "Deadline": "2027-02-16T00:00:00.000+0000",
+    "Status": "Open for submission",
+    "MatchedKeywords": "ai models",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-BRIDGING-2027-01-13"
   },
   {
     "Title": "National Cyber Hubs",
@@ -952,15 +943,6 @@
     "MatchedKeywords": "cybersecurity, security",
     "Programme": "Digital Europe Programme (DIGITAL)",
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/DIGITAL-ECCC-2027-DEPLOY-CYBER-12-CBCH"
-  },
-  {
-    "Title": "Expert network on Critical raw materials (CSA)",
-    "TopicID": "HORIZON-CL4-2027-01-MAT-PROD-17",
-    "Deadline": "2027-02-02T00:00:00.000+0000",
-    "Status": "Open for submission",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-17"
   },
   {
     "Title": "Automated Scientific Discovery – Food (RAISE pilot)",
@@ -988,6 +970,15 @@
     "MatchedKeywords": "ai models, anonymisation, synthetic data",
     "Programme": "Horizon Europe (HORIZON)",
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-RAISE-2027-01-04"
+  },
+  {
+    "Title": "Expert network on Critical raw materials (CSA)",
+    "TopicID": "HORIZON-CL4-2027-01-MAT-PROD-17",
+    "Deadline": "2027-02-02T00:00:00.000+0000",
+    "Status": "Open for submission",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2027-01-MAT-PROD-17"
   },
   {
     "Title": "Innovative solutions to fight wildlife trafficking and to reduce invasion of invasive alien species",
@@ -1233,24 +1224,6 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-JU-EUROHPC-2026-QML-07-01"
   },
   {
-    "Title": "I3-2026-INV2a - Interregional Innovation Investments Strand 2a",
-    "TopicID": "I3-2026-INV2a",
-    "Deadline": "2026-11-12T00:00:00.000+0000",
-    "Status": "Open for submission",
-    "MatchedKeywords": "security",
-    "Programme": "Interregional Innovation Investments Instrument (I3)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/I3-2026-INV2a"
-  },
-  {
-    "Title": "I3-2026-INV1 - Interregional Innovation Investments Strand 1",
-    "TopicID": "I3-2026-INV1",
-    "Deadline": "2026-11-12T00:00:00.000+0000",
-    "Status": "Open for submission",
-    "MatchedKeywords": "security",
-    "Programme": "Interregional Innovation Investments Instrument (I3)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/I3-2026-INV1"
-  },
-  {
     "Title": "Understanding inhabitant’s experiences of neighbourhoods to support their health and well-being",
     "TopicID": "HORIZON-NEB-2026-01-PARTICIPATION-03",
     "Deadline": "2026-12-01T00:00:00.000+0000",
@@ -1269,31 +1242,13 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-NEB-2026-01-PARTICIPATION-02"
   },
   {
-    "Title": "Advanced real-time data analysis used for infrastructure resilience",
-    "TopicID": "HORIZON-CL3-2024-INFRA-01-03",
-    "Deadline": "2024-11-20T17:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "privacy, security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-INFRA-01-03.json"
-  },
-  {
-    "Title": "Mitigating new threats and adapting investigation strategies in the era of Internet of Things",
-    "TopicID": "HORIZON-CL3-2024-FCT-01-01",
+    "Title": "Interoperability for border and maritime surveillance and situational awareness",
+    "TopicID": "HORIZON-CL3-2024-BM-01-02",
     "Deadline": "2024-11-20T17:00:00.000+0000",
     "Status": "Forthcoming",
     "MatchedKeywords": "cybersecurity, privacy, security",
     "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-FCT-01-01.json"
-  },
-  {
-    "Title": "Accelerating uptake through open proposals for advanced SME innovation",
-    "TopicID": "HORIZON-CL3-2024-SSRI-01-02",
-    "Deadline": "2024-11-20T17:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-SSRI-01-02.json"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-BM-01-02.json"
   },
   {
     "Title": "Resilient and secure urban planning and new tools for EU territorial entities",
@@ -1305,13 +1260,40 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-INFRA-01-02.json"
   },
   {
-    "Title": "Tracing of cryptocurrencies transactions related to criminal purposes",
-    "TopicID": "HORIZON-CL3-2024-FCT-01-08",
+    "Title": "Advanced real-time data analysis used for infrastructure resilience",
+    "TopicID": "HORIZON-CL3-2024-INFRA-01-03",
+    "Deadline": "2024-11-20T17:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "privacy, security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-INFRA-01-03.json"
+  },
+  {
+    "Title": "Radicalisation and gender",
+    "TopicID": "HORIZON-CL3-2024-FCT-01-04",
     "Deadline": "2024-11-20T17:00:00.000+0000",
     "Status": "Forthcoming",
     "MatchedKeywords": "security",
     "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-FCT-01-08.json"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-FCT-01-04.json"
+  },
+  {
+    "Title": "Mitigating new threats and adapting investigation strategies in the era of Internet of Things",
+    "TopicID": "HORIZON-CL3-2024-FCT-01-01",
+    "Deadline": "2024-11-20T17:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "cybersecurity, privacy, security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-FCT-01-01.json"
+  },
+  {
+    "Title": "Open Topic",
+    "TopicID": "HORIZON-CL3-2024-FCT-01-02",
+    "Deadline": "2024-11-20T17:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-FCT-01-02.json"
   },
   {
     "Title": "Demand-led innovation through public procurement",
@@ -1341,15 +1323,6 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-FCT-01-07.json"
   },
   {
-    "Title": "Approaches and tools for security in software and hardware development and assessment",
-    "TopicID": "HORIZON-CL3-2024-CS-01-01",
-    "Deadline": "2024-11-20T17:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "cybersecurity, security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-CS-01-01.json"
-  },
-  {
     "Title": "Post-quantum cryptography transition",
     "TopicID": "HORIZON-CL3-2024-CS-01-02",
     "Deadline": "2024-11-20T17:00:00.000+0000",
@@ -1357,6 +1330,33 @@
     "MatchedKeywords": "cybersecurity, security",
     "Programme": "Horizon Europe (HORIZON)",
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-CS-01-02.json"
+  },
+  {
+    "Title": "Advanced user-friendly, compatible, secure identity and travel document management",
+    "TopicID": "HORIZON-CL3-2024-BM-01-03",
+    "Deadline": "2024-11-20T17:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "privacy, security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-BM-01-03.json"
+  },
+  {
+    "Title": "Accelerating uptake through open proposals for advanced SME innovation",
+    "TopicID": "HORIZON-CL3-2024-SSRI-01-02",
+    "Deadline": "2024-11-20T17:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-SSRI-01-02.json"
+  },
+  {
+    "Title": "Tracing of cryptocurrencies transactions related to criminal purposes",
+    "TopicID": "HORIZON-CL3-2024-FCT-01-08",
+    "Deadline": "2024-11-20T17:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-FCT-01-08.json"
   },
   {
     "Title": "Hi-tech capacities for crisis response and recovery after a natural-technological (NaTech) disaster",
@@ -1386,40 +1386,13 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-FCT-01-03.json"
   },
   {
-    "Title": "Radicalisation and gender",
-    "TopicID": "HORIZON-CL3-2024-FCT-01-04",
-    "Deadline": "2024-11-20T17:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-FCT-01-04.json"
-  },
-  {
-    "Title": "Open Topic",
-    "TopicID": "HORIZON-CL3-2024-FCT-01-02",
-    "Deadline": "2024-11-20T17:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-FCT-01-02.json"
-  },
-  {
-    "Title": "Advanced user-friendly, compatible, secure identity and travel document management",
-    "TopicID": "HORIZON-CL3-2024-BM-01-03",
+    "Title": "Integrated risk-based border control that mitigates public security risk, reduces false positives and strengthens privacy",
+    "TopicID": "HORIZON-CL3-2024-BM-01-04",
     "Deadline": "2024-11-20T17:00:00.000+0000",
     "Status": "Forthcoming",
     "MatchedKeywords": "privacy, security",
     "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-BM-01-03.json"
-  },
-  {
-    "Title": "Detection and tracking of illegal and trafficked goods",
-    "TopicID": "HORIZON-CL3-2024-BM-01-05",
-    "Deadline": "2024-11-20T17:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-BM-01-05.json"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-BM-01-04.json"
   },
   {
     "Title": "Prevention, detection, response and mitigation of chemical, biological and radiological threats to agricultural production, feed and food processing, distribution and consumption",
@@ -1431,31 +1404,22 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-DRS-01-01.json"
   },
   {
-    "Title": "Interoperability for border and maritime surveillance and situational awareness",
-    "TopicID": "HORIZON-CL3-2024-BM-01-02",
-    "Deadline": "2024-11-20T17:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "cybersecurity, privacy, security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-BM-01-02.json"
-  },
-  {
-    "Title": "Integrated risk-based border control that mitigates public security risk, reduces false positives and strengthens privacy",
-    "TopicID": "HORIZON-CL3-2024-BM-01-04",
-    "Deadline": "2024-11-20T17:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "privacy, security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-BM-01-04.json"
-  },
-  {
-    "Title": "Open Topic",
-    "TopicID": "HORIZON-CL3-2024-INFRA-01-01",
+    "Title": "Detection and tracking of illegal and trafficked goods",
+    "TopicID": "HORIZON-CL3-2024-BM-01-05",
     "Deadline": "2024-11-20T17:00:00.000+0000",
     "Status": "Forthcoming",
     "MatchedKeywords": "security",
     "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-INFRA-01-01.json"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-BM-01-05.json"
+  },
+  {
+    "Title": "Approaches and tools for security in software and hardware development and assessment",
+    "TopicID": "HORIZON-CL3-2024-CS-01-01",
+    "Deadline": "2024-11-20T17:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "cybersecurity, security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-CS-01-01.json"
   },
   {
     "Title": "Combating hate speech online and offline",
@@ -1465,6 +1429,15 @@
     "MatchedKeywords": "privacy, security",
     "Programme": "Horizon Europe (HORIZON)",
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-FCT-01-05.json"
+  },
+  {
+    "Title": "Open Topic",
+    "TopicID": "HORIZON-CL3-2024-INFRA-01-01",
+    "Deadline": "2024-11-20T17:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2024-INFRA-01-01.json"
   },
   {
     "Title": "Open Topic",
