@@ -8,7 +8,6 @@ import yaml
 SEC_URL = "https://raw.githubusercontent.com/sec-deadlines/sec-deadlines.github.io/master/_data/conferences.yml"
 AI_URL = "https://raw.githubusercontent.com/paperswithcode/ai-deadlines/gh-pages/_data/conferences.yml"
 
-# MLDM keywords used to filter all conferences in the YAML feeds
 KEYWORDS = [
     "privacy", "anonymisation", "anonymization", "synthetic data", "federated learning",
     "differential privacy", "homomorphic encryption", "cryptography",
@@ -17,9 +16,8 @@ KEYWORDS = [
     "machine learning", "data management", "artificial intelligence", "ai"
 ]
 
-# Non-descriptive fields to exclude from keyword matching
 EXCLUDED_FIELDS = {
-    "link", "place", "location", "timezone", "date", "deadline",
+    "link", "dblp", "place", "location", "timezone", "date", "deadline",
     "abstract_deadline", "start", "end", "year", "hindex"
 }
 
@@ -72,6 +70,47 @@ def find_matched_keywords(conf):
     ]
     return sorted(set(matched))
 
+def normalize_cycles(conf):
+    """Normalize both ai-deadlines ('deadlines') and sec-deadlines ('deadline' list) schemas."""
+    deadlines = conf.get("deadlines")
+    if isinstance(deadlines, list) and deadlines:
+        return deadlines
+
+    raw_dl = conf.get("deadline") or conf.get("date")
+    raw_abs = conf.get("abstract_deadline")
+    year = conf.get("year", "")
+
+    # sec-deadlines stores deadline (and optionally abstract_deadline) as a list of strings
+    if isinstance(raw_dl, list):
+        cycles = []
+        for idx, dl_item in enumerate(raw_dl):
+            abs_item = (
+                raw_abs[idx]
+                if isinstance(raw_abs, list) and idx < len(raw_abs)
+                else (raw_abs if raw_abs and not isinstance(raw_abs, list) else "N/A")
+            )
+            cycles.append({
+                "deadline": dl_item,
+                "abstract_deadline": abs_item,
+                "year": year
+            })
+        return cycles
+
+    return [{
+        "deadline": raw_dl,
+        "abstract_deadline": raw_abs or "N/A",
+        "year": year
+    }]
+
+def extract_category(conf):
+    """Use 'sub' (ai-deadlines) or 'tags' (sec-deadlines) for Category."""
+    if conf.get("sub"):
+        return str(conf["sub"]).strip()
+    tags = conf.get("tags")
+    if isinstance(tags, list) and tags:
+        return ", ".join(str(t).strip() for t in tags)
+    return "Security/AI"
+
 def fetch_all_conferences():
     sec_data = parse_yaml(SEC_URL)
     ai_data = parse_yaml(AI_URL)
@@ -91,27 +130,20 @@ def fetch_all_conferences():
             continue
         matched_conf_count += 1
 
-        title = str(conf.get("title", "")).strip()
-        deadlines = conf.get("deadlines")
-
-        if isinstance(deadlines, list) and deadlines:
-            cycles = deadlines
-        else:
-            cycles = [{
-                "deadline": conf.get("deadline") or conf.get("date"),
-                "abstract_deadline": conf.get("abstract_deadline", "N/A"),
-                "year": conf.get("year", "")
-            }]
+        # sec-deadlines uses 'name'; ai-deadlines uses 'title'
+        conf_name = str(conf.get("name") or conf.get("title") or "Unknown Conference").strip()
+        category = extract_category(conf)
+        cycles = normalize_cycles(conf)
 
         for cycle in cycles:
             if isinstance(cycle, dict):
                 raw_deadline = cycle.get("deadline") or cycle.get("date") or conf.get("deadline") or conf.get("date")
-                abstract_dl = cycle.get("abstract_deadline") or cycle.get("abstract") or conf.get("abstract_deadline") or "N/A"
+                abstract_dl = cycle.get("abstract_deadline") or cycle.get("abstract") or "N/A"
                 year_val = cycle.get("year") or conf.get("year")
                 cycle_type = str(cycle.get("type") or cycle.get("round") or "").strip()
             else:
                 raw_deadline = cycle
-                abstract_dl = conf.get("abstract_deadline", "N/A")
+                abstract_dl = "N/A"
                 year_val = conf.get("year")
                 cycle_type = ""
 
@@ -125,7 +157,7 @@ def fetch_all_conferences():
 
             year = year_val or deadline_dt.year
             suffix = f" ({cycle_type})" if cycle_type else ""
-            entry_title = f"{title} {year}{suffix}".strip()
+            entry_title = f"{conf_name} {year}{suffix}".strip()
             deadline_str = str(raw_deadline).strip()
 
             dedup_key = (entry_title, deadline_str)
@@ -136,11 +168,11 @@ def fetch_all_conferences():
             results.append({
                 "Title": entry_title,
                 "Deadline": deadline_str,
-                "AbstractDeadline": str(abstract_dl),
-                "Location": str(conf.get("place", conf.get("location", "TBA"))),
-                "Category": str(conf.get("sub", "Security/AI")),
+                "AbstractDeadline": str(abstract_dl).strip(),
+                "Location": str(conf.get("place", conf.get("location", "TBA"))).strip(),
+                "Category": category,
                 "MatchedKeywords": ", ".join(matched_kw),
-                "Url": str(conf.get("link", ""))
+                "Url": str(conf.get("link", "")).strip()
             })
 
     results.sort(key=lambda x: str(parse_deadline_date(x["Deadline"])))
