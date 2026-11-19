@@ -1566,49 +1566,31 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL2-2024-DEMOCRACY-01-06.json"
   },
   {
-    "Title": "Supporting operators against cyber and non-cyber threats to reinforce the resilience of critical infrastructures",
-    "TopicID": "HORIZON-CL3-2023-INFRA-01-02",
-    "Deadline": "2023-11-23T17:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-INFRA-01-02.json"
-  },
-  {
-    "Title": "Secure Computing Continuum (IoT, Edge, Cloud, Dataspaces)",
-    "TopicID": "HORIZON-CL3-2023-CS-01-01",
-    "Deadline": "2023-11-23T17:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "cybersecurity, security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-CS-01-01.json"
-  },
-  {
-    "Title": "Operability and standardisation in response to biological toxin incidents",
-    "TopicID": "HORIZON-CL3-2023-DRS-01-03",
-    "Deadline": "2023-11-23T17:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-DRS-01-03.json"
-  },
-  {
-    "Title": "Enhancing tools and capabilities to fight advanced forms of cyber threats and cyber-dependent crimes",
-    "TopicID": "HORIZON-CL3-2023-FCT-01-06",
-    "Deadline": "2023-11-23T17:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "cybersecurity, security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-FCT-01-06.json"
-  },
-  {
-    "Title": "Beyond the state-of-the-art “biometrics on the move” for border checks",
-    "TopicID": "HORIZON-CL3-2023-BM-01-03",
+    "Title": "Processing of large, complex and unstructured datasets resulting from criminal investigations, while reconciling big data analysis and data protection",
+    "TopicID": "HORIZON-CL3-2023-FCT-01-01",
     "Deadline": "2023-11-23T17:00:00.000+0000",
     "Status": "Forthcoming",
     "MatchedKeywords": "privacy, security",
     "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-BM-01-03.json"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-FCT-01-01.json"
+  },
+  {
+    "Title": "New methods and technologies in service of community policing and transferable best practices",
+    "TopicID": "HORIZON-CL3-2023-FCT-01-03",
+    "Deadline": "2023-11-23T17:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-FCT-01-03.json"
+  },
+  {
+    "Title": "Improving social and societal preparedness for disaster response and health emergencies",
+    "TopicID": "HORIZON-CL3-2023-DRS-01-01",
+    "Deadline": "2023-11-23T17:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "privacy, security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-DRS-01-01.json"
   },
   {
     "Title": "Capabilities for border surveillance and situational awareness",
@@ -1638,31 +1620,49 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-DRS-01-06.json"
   },
   {
-    "Title": "Open grounds for pre-commercial procurement of innovative security technologies",
-    "TopicID": "HORIZON-CL3-2023-SSRI-01-01",
+    "Title": "Security of robust AI systems",
+    "TopicID": "HORIZON-CL3-2023-CS-01-03",
     "Deadline": "2023-11-23T17:00:00.000+0000",
     "Status": "Forthcoming",
-    "MatchedKeywords": "security",
+    "MatchedKeywords": "adversarial, cybersecurity, security",
     "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-SSRI-01-01.json"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-CS-01-03.json"
   },
   {
-    "Title": "Crime as a service",
-    "TopicID": "HORIZON-CL3-2023-FCT-01-05",
-    "Deadline": "2023-11-23T17:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-FCT-01-05.json"
-  },
-  {
-    "Title": "Improving social and societal preparedness for disaster response and health emergencies",
-    "TopicID": "HORIZON-CL3-2023-DRS-01-01",
+    "Title": "Beyond the state-of-the-art “biometrics on the move” for border checks",
+    "TopicID": "HORIZON-CL3-2023-BM-01-03",
     "Deadline": "2023-11-23T17:00:00.000+0000",
     "Status": "Forthcoming",
     "MatchedKeywords": "privacy, security",
     "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-DRS-01-01.json"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-BM-01-03.json"
+  },
+  {
+    "Title": "A harmonized European forensics approach on drugs analysis",
+    "TopicID": "HORIZON-CL3-2023-FCT-01-02",
+    "Deadline": "2023-11-23T17:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-FCT-01-02.json"
+  },
+  {
+    "Title": "Facilitating strategic cooperation to ensure the provision of essential services",
+    "TopicID": "HORIZON-CL3-2023-INFRA-01-01",
+    "Deadline": "2023-11-23T17:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-INFRA-01-01.json"
+  },
+  {
+    "Title": "Operability and standardisation in response to biological toxin incidents",
+    "TopicID": "HORIZON-CL3-2023-DRS-01-03",
+    "Deadline": "2023-11-23T17:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-DRS-01-03.json"
   },
   {
     "Title": "Robotics: Autonomous or semi-autonomous UGV systems to supplement skills for use in hazardous environments",
@@ -1692,40 +1692,40 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-BM-01-04.json"
   },
   {
-    "Title": "Privacy-preserving and identity management technologies",
-    "TopicID": "HORIZON-CL3-2023-CS-01-02",
-    "Deadline": "2023-11-23T17:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "cybersecurity, privacy, security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-CS-01-02.json"
-  },
-  {
-    "Title": "Open Topic",
-    "TopicID": "HORIZON-CL3-2023-FCT-01-04",
+    "Title": "Supporting operators against cyber and non-cyber threats to reinforce the resilience of critical infrastructures",
+    "TopicID": "HORIZON-CL3-2023-INFRA-01-02",
     "Deadline": "2023-11-23T17:00:00.000+0000",
     "Status": "Forthcoming",
     "MatchedKeywords": "security",
     "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-FCT-01-04.json"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-INFRA-01-02.json"
   },
   {
-    "Title": "Processing of large, complex and unstructured datasets resulting from criminal investigations, while reconciling big data analysis and data protection",
-    "TopicID": "HORIZON-CL3-2023-FCT-01-01",
+    "Title": "Enhancing tools and capabilities to fight advanced forms of cyber threats and cyber-dependent crimes",
+    "TopicID": "HORIZON-CL3-2023-FCT-01-06",
     "Deadline": "2023-11-23T17:00:00.000+0000",
     "Status": "Forthcoming",
-    "MatchedKeywords": "privacy, security",
+    "MatchedKeywords": "cybersecurity, security",
     "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-FCT-01-01.json"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-FCT-01-06.json"
   },
   {
-    "Title": "New methods and technologies in service of community policing and transferable best practices",
-    "TopicID": "HORIZON-CL3-2023-FCT-01-03",
+    "Title": "Open grounds for pre-commercial procurement of innovative security technologies",
+    "TopicID": "HORIZON-CL3-2023-SSRI-01-01",
     "Deadline": "2023-11-23T17:00:00.000+0000",
     "Status": "Forthcoming",
     "MatchedKeywords": "security",
     "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-FCT-01-03.json"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-SSRI-01-01.json"
+  },
+  {
+    "Title": "Crime as a service",
+    "TopicID": "HORIZON-CL3-2023-FCT-01-05",
+    "Deadline": "2023-11-23T17:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-FCT-01-05.json"
   },
   {
     "Title": "Accelerating uptake through open proposals for advanced SME innovation",
@@ -1737,31 +1737,31 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-SSRI-01-02.json"
   },
   {
-    "Title": "Security of robust AI systems",
-    "TopicID": "HORIZON-CL3-2023-CS-01-03",
+    "Title": "Privacy-preserving and identity management technologies",
+    "TopicID": "HORIZON-CL3-2023-CS-01-02",
     "Deadline": "2023-11-23T17:00:00.000+0000",
     "Status": "Forthcoming",
-    "MatchedKeywords": "adversarial, cybersecurity, security",
+    "MatchedKeywords": "cybersecurity, privacy, security",
     "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-CS-01-03.json"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-CS-01-02.json"
   },
   {
-    "Title": "Facilitating strategic cooperation to ensure the provision of essential services",
-    "TopicID": "HORIZON-CL3-2023-INFRA-01-01",
+    "Title": "Secure Computing Continuum (IoT, Edge, Cloud, Dataspaces)",
+    "TopicID": "HORIZON-CL3-2023-CS-01-01",
+    "Deadline": "2023-11-23T17:00:00.000+0000",
+    "Status": "Forthcoming",
+    "MatchedKeywords": "cybersecurity, security",
+    "Programme": "Horizon Europe (HORIZON)",
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-CS-01-01.json"
+  },
+  {
+    "Title": "Open Topic",
+    "TopicID": "HORIZON-CL3-2023-FCT-01-04",
     "Deadline": "2023-11-23T17:00:00.000+0000",
     "Status": "Forthcoming",
     "MatchedKeywords": "security",
     "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-INFRA-01-01.json"
-  },
-  {
-    "Title": "A harmonized European forensics approach on drugs analysis",
-    "TopicID": "HORIZON-CL3-2023-FCT-01-02",
-    "Deadline": "2023-11-23T17:00:00.000+0000",
-    "Status": "Forthcoming",
-    "MatchedKeywords": "security",
-    "Programme": "Horizon Europe (HORIZON)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-FCT-01-02.json"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/HORIZON-CL3-2023-FCT-01-04.json"
   },
   {
     "Title": "Design of crisis prevention and preparedness actions in case of digital breakdown (internet, electricity etc.)",
@@ -1782,13 +1782,13 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/EDF-2023-RA-SI-CYBER-ASPT.json"
   },
   {
-    "Title": "Capacity building of Security Operation Centres",
-    "TopicID": "DIGITAL-ECCC-2022-CYBER-B-03-SOC",
+    "Title": "EU Cybersecurity Resilience, Coordination and Cybersecurity Ranges",
+    "TopicID": "DIGITAL-ECCC-2022-CYBER-B-03-CYBER-RESILIENCE",
     "Deadline": "2023-07-06T17:00:00.000+0000",
     "Status": "Open for submission",
-    "MatchedKeywords": "cybersecurity, security",
+    "MatchedKeywords": "cybersecurity, privacy, security",
     "Programme": "Digital Europe Programme (DIGITAL)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/DIGITAL-ECCC-2022-CYBER-B-03-SOC.json"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/DIGITAL-ECCC-2022-CYBER-B-03-CYBER-RESILIENCE.json"
   },
   {
     "Title": "Uptake of Innovative Cybersecurity Solutions",
@@ -1800,13 +1800,13 @@
     "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/DIGITAL-ECCC-2022-CYBER-B-03-UPTAKE-CYBERSOLUTIONS.json"
   },
   {
-    "Title": "EU Cybersecurity Resilience, Coordination and Cybersecurity Ranges",
-    "TopicID": "DIGITAL-ECCC-2022-CYBER-B-03-CYBER-RESILIENCE",
+    "Title": "Capacity building of Security Operation Centres",
+    "TopicID": "DIGITAL-ECCC-2022-CYBER-B-03-SOC",
     "Deadline": "2023-07-06T17:00:00.000+0000",
     "Status": "Open for submission",
-    "MatchedKeywords": "cybersecurity, privacy, security",
+    "MatchedKeywords": "cybersecurity, security",
     "Programme": "Digital Europe Programme (DIGITAL)",
-    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/DIGITAL-ECCC-2022-CYBER-B-03-CYBER-RESILIENCE.json"
+    "Url": "https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/DIGITAL-ECCC-2022-CYBER-B-03-SOC.json"
   },
   {
     "Title": "Deployment of the AI-on-demand platform",
